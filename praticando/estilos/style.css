@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-image:linear-gradient(120deg, #41be10, #69f532,#4caa276f) ;
+}
+
+header{
+    text-align: center;
+}
+
+ul{
+    background-color: aqua;
+}
+
+li{
+    display: inline;
+    margin: 20px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover{
+    font-weight: bold;
+    color: rgb(38, 127, 200);
+}
+
+img{
+    width: 30vw;
+}
