@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>É vogal ou não É</title>
+    <style>
+        div#box{
+            width: 200px;
+            height: 100px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            line-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" name="letra" id="letra">
+    <input type="button" value="checar" onclick="checar()">
+
+    <div id="box">olá</div>
+
+    <script>
+        function checar() {
+
+            var a = "a"
+            var e = "e"
+            var i = "i"
+            var o = "o"
+            var u = "u"
+
+            var produto = document.getElementById('letra').value
+            produto = produto.toLowerCase()
+
+            res = window.document.getElementById('box')
+
+            if (produto == a || produto == e || produto == i || produto == o || produto == u) {
+                res.innerHTML = 'Vogal'}
+                else { res.innerHTML = 'Consoante'}
+        }
+
+
+    </script>
+</body>
+</html>
+
+

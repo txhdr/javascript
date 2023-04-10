@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Bem vindo ao confirmador de nacionalidade brasileira</h1>
+
+
+<label for="nas">coloque onde você nasceu:</label>
+<input type="text" name="nas" id="nas">
+
+<input type="button" value="enviar" onclick="reconhecer()">
+
+<div id="resul"> resultado
+
+</div>
+
+<script>
+    function reconhecer() {
+
+        var resposta = window.document.getElementById('nas').value;
+        var res = document.getElementById('resul');
+
+            if (resposta == 'brasil') {
+            res.innerHTML = `você é brasileiro`;
+            } else {
+                res.innerHTML = `você é estrangeiro`
+            }
+
+
+    }
+</script>
+</body>
+</html>
+
