@@ -1,16 +1,26 @@
-body{
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body, html{
     width: 100vw;
     height: 100vh;
     background-color: rgb(31, 31, 162);
     font:normal 1em arial;
 }
 
-header h1{ font-size: 3em;
+header h1{
+    font-size: 3em;
     text-align: center;
     color: aliceblue;
+
+    padding: 20px;
 }
 
 section{
+    text-align: center;
+    
     background-color: white;
     border-radius: 10px;
     padding: 15px;
@@ -27,16 +37,18 @@ footer{
     font-style: italic;
 }
 
+div{
+    padding: 10px;
+}
+
 div#res{
     text-align: center;
 }
 
-#foto{ 
-    display: block;
-    width: 150px;  
-    height: 150px;
-    border-radius: 50%;
-    margin: auto;
-    }
-    
+input{
+    margin: 10px;
+}
 
+input#ver{
+    width:150px;
+}
