@@ -3,7 +3,7 @@ escreva	 se	 o	 triângulo	 é	 Acutângulo,	 Retângulo	 ou	 Obtusângulo.	 Sen
 que:	
 − Triângulo	Retângulo:	possui	um	ângulo	reto.	(igual	a	90º)
 − Triângulo	Obtusângulo:	possui	um	ângulo	obtuso.	(maior	que90º)	
-− Triângulo	Acutângulo:	possui	três	ângulos	agudos.	(menor	que	90º */
+− Triângulo	Acutângulo:	possui	três	ângulos	agudos.	(menor	que	90º) */
 
 var angulo1 = 33.7
 var angulo2 = 19.4
