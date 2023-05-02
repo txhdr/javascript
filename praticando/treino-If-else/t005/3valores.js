@@ -1,9 +1,10 @@
 /*Escreva	 um	 programa	 para	 ler	 3	 valores	 inteiros	 (considere	 que	 	 não	
 serão	lidos	valores	iguais)	e	escrevê-los	em	ordem	crescente.*/
 
-var a = 35
-var b = 15
-var c = 30
+var a = 7
+var b = 37
+var c = 73
+
 
 
 if (a < b && a < c){
