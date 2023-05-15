@@ -1,4 +1,5 @@
-let num2 = 10
+var num2 = 10
+
 switch (num2) {
     case 0:
         console.log("Number is 0 ");
