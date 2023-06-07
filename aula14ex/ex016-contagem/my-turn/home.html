@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="desenho.css">
+    <title>vamos contar</title>
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <div id="principal">
+            <p>
+                <label for="txti" id="a">Inicio:</label>
+                <input type="number" name="n-inicio" id="in-inicio">
+            </p>
+
+            <p> <label for="txtf" id="b">Fim:</label>
+                <input type="number" name="n-fim" id="in-fim">
+            </p>
+
+            <p>
+                <label for="txtp" id="c">Passos:</label>
+                <input type="number" name="n-passo" id="in-passo">
+            </p>
+            
+            <p><input type="button" value="Contar" id="clicar" onclick="contagem() "></p>
+        </div>
+        
+        <div id="res">A contagem irá aparecer aqui...
+
+        </div>
+    </section>
+    <footer>
+        <p>txhdr</p>
+    </footer>
+
+    <script src="ação.js"></script>
+    
+</body>
+</html>
