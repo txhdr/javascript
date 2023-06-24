@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div#area{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            color: white;
+            line-height: 100px;
+            text-align: center;
+
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div id="area">
+        inicio
+
+    </div>
+
+
+    <script>
+        let a = document.getElementById('area')
+
+        a.addEventListener('click', clicar);
+        a.addEventListener('mouseenter', entrou);
+        a.addEventListener('mouseout', saiu)
+        
+        function clicar() {
+        
+        a.innerHTML = `clicou`
+        a.style.backgroundColor = `yellow`
+        a.style.color = `black`
+
+        }
+
+        function entrou(){
+            a.innerHTML = `mouse in`
+            a.style.backgroundColor ='brown'
+        }
+
+        function saiu(){
+            a.innerHTML = `mouse saiu`
+            a.style.backgroundColor = 'red'
+            a.style.color = `white`
+        }
+
+    </script>
+</body>
+</html>
