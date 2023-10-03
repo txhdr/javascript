@@ -62,7 +62,7 @@ x*= 3 // multiplica por 3. o mesmo que x = x*3
   // variáveis também são expressões
 
 
-  se combinar funções com objetos, obtemos Métodos
+se combinar funções com objetos, obtemos Métodos
 
 
 var a = [0]

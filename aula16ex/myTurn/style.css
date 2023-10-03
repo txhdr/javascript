@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    text-align: center;
+    background-color: #337337;
+
+}
+
+header{
+    background-color: #337337;
+    color:#ffff;
+    text-shadow: 1px 1px 2px #0000007f;
+    padding: 25px;
+}
+
+section{
+    padding: 25px;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 550px;
+    background-color: #693908;
+    border-radius: 20px;
+}
+
+input#fnum{
+    border-radius: 4px;
+}
+#p1{
+    color: white;
+}
+
+#res{
+    color: white;
+    text-align: left;
+}
+
+.botão{
+    padding: 7px;
+    border-radius: 7px;
+
+}
+
+select{
+    width: 250px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+
+
